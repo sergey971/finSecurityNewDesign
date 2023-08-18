@@ -131,13 +131,11 @@
 }
 @media (max-width: 375px) {
   .partners__title {
-    max-width: 660px;
-    margin-top: 113px;
+    margin-top: 65px !important;
   }
 }
 @media (max-width: 320px) {
   .partners__title {
-    max-width: 660px;
-    margin-top: 113px;
+    margin-top: -25px !important;
   }
 }
