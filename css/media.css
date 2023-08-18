@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@media (min-width: 1235px) and (max-width: 1300px) {
+  .partners {
+    margin-bottom: 63px;
+  }
+  .partners ::after {
+    height: 182% !important;
+  }
+}
+@media (max-width: 1024px) {
+  .header__logo h3 {
+    font-size: 13px;
+  }
+  .header__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .header__list a {
+    font-size: 13px;
+  }
+  .partners__title {
+    margin-top: -33px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+    z-index: 2;
+  }
+  .header__nav__row {
+    display: none;
+  }
+  .header__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__logo {
+    width: 100%;
+  }
+  .header__nav__row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__list {
+    position: relative;
+    z-index: 2;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 43px;
+    margin-bottom: 63px;
+    text-align: center;
+  }
+  .header__list a {
+    font-size: 16px;
+  }
+  .header__nav__row {
+    display: none !important;
+  }
+  .cooperating__title {
+    display: none;
+  }
+  .cooperating .col {
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 0 100% !important;
+            flex: 0 0 100% !important;
+  }
+  .cooperating .col:nth-child(3) {
+    margin-top: 0px !important;
+  }
+  .partners__btn {
+    margin-top: 129px;
+    margin-right: auto;
+  }
+  #burger {
+    display: block !important;
+  }
+}
+@media (max-width: 425px) {
+  .header {
+    margin-top: 15px;
+  }
+  .header__logo h3 {
+    font-size: 10px !important;
+    margin-left: -4px;
+    width: 89% !important;
+  }
+  .header__phone .phone {
+    border: none !important;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .header__phone .phone__return {
+    display: none;
+  }
+  .header__phone .phone ::before {
+    content: "тел.";
+  }
+  .partners__title h1 {
+    font-size: 32px !important;
+  }
+  .partners__btn {
+    margin-right: auto;
+  }
+  .cooperating__title {
+    display: none;
+  }
+  .cooperating .cooperating .col:nth-child(3) {
+    margin-top: 0px;
+  }
+  .cooperating .cooperating__cols {
+    background-color: #fff;
+  }
+  .cooperating .cols__row .col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+  .cooperating .cols__row .col:nth-child(1) .col__text {
+    margin-bottom: -47px;
+  }
+  .cooperating .cols__row .col:nth-child(3) {
+    margin-top: 12px;
+  }
+}
