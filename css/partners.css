@@ -239,7 +239,7 @@ legend {
   top: 0;
   left: 0;
   width: 100%;
-  height: calc(100% + 35vh);
+  height: 100%;
   z-index: -99;
 }
 .partners__body {

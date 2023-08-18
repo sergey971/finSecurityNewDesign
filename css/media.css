@@ -129,3 +129,13 @@
     margin-top: 12px;
   }
 }
+@media (max-width: 375px) {
+  .partners__title {
+    margin-top: 65px !important;
+  }
+}
+@media (max-width: 320px) {
+  .partners__title {
+    margin-top: -80px !important;
+  }
+}
