@@ -6,13 +6,16 @@
     <meta name="robots" content="noindex" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+
     <title>Document</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="container">
-            <header class="header">
+        <header class="header">
+            <div class="container">
                 <div class="header__inner">
                     <div class="header__top">
                         <div class="header__logo">
@@ -20,98 +23,139 @@
                                 <img src="./image/team/logo.svg" class="logo__img" alt="">
                             </a>
                             <h3> Городской центр <br> финасовой защиты граждан</h3>
-                        </div>
-                        <div class="header__nav">
-                            <nav class="nav">
-                                <ul class="header__list">
-                                    <li class="header__link"><a href="#">
-                                            Частным клиентам
-                                        </a></li>
-                                    <li class="header__link"><a href="#">
-                                            Тарифы
-                                        </a></li>
-                                    <li class="header__link"><a href="#">
-                                            База знаний
-                                        </a></li>
-                                    <li class="header__link"><a href="#">
-                                            Контакты
-                                        </a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <div class="header__phone">
-                            <div class="phone">
-                                <a href='+7 932 329 97 25'>+7 932 329 97 25</a>
+                            <div id="burger" class="burger">
+                                <span></span>
+                                <span></span>
+                                <span></span>
                             </div>
-                            <div class="phone__return">
-                                <a href="#">Обратный звонок</a>
+                        </div>
+                        <div class="header__nav__row">
+
+                            <div class="header__nav">
+                                <nav class="nav">
+                                    <ul class="header__list">
+                                        <li class="header__link"><a href="#">
+                                                Частным клиентам
+                                            </a></li>
+                                        <li class="header__link"><a href="#">
+                                                Тарифы
+                                            </a></li>
+                                        <li class="header__link"><a href="#">
+                                                База знаний
+                                            </a></li>
+                                        <li class="header__link"><a href="#">
+                                                Контакты
+                                            </a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="header__phone">
+                                <div class="phone">
+                                    <a href='+7 932 329 97 25'>+7 932 329 97 25</a>
+                                </div>
+                                <div class="phone__return">
+                                    <a href="#">Обратный звонок</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-            </header>
-            <section class="partner">
-                <div class="partner__image">
-                    <img src="./image/team/tet.png" alt="">
                 </div>
-                <div class="partner__title">
-                    <h2>Банкротство физических лиц
-                        <span>с гарантией результата под ключ</span>
-                    </h2>
-                </div>
-                <div class="partner__content">
-                    <div class="partner__content__body">
-                        <div class="partner__content__row">
-                            <div class="partner__content__cols">
-                                <div class="cols">
-                                    <div class="cols__row">
-                                        <div class="cols__col">
-                                            <div class="cols__img">
+        </header>
+
+        <section class="bust">
+            <div class="container">
+                <div class="bust__body">
+                    <div class="bust__row">
+                        <div class="bust__title">
+                            <h1>Банкротство физических лиц
+                                <span>с гарантией результата под ключ</span>
+                            </h1>
+                        </div>
+                        <div class="bust__item">
+                            <div class="bust__cols">
+                                <div class="bust__cols__row">
+                                    <div class="col">
+                                        <div class="col__row">
+                                            <div class="col__img">
                                                 <img src="./image/team/1.svg" alt="">
                                             </div>
-                                            <div class="cols__title">Защитим от коллекторов и приставов</div>
+                                            <div class="col__title">
+                                                <h3>Защитим от коллекторов и приставов</h3>
+                                            </div>
                                         </div>
-                                        <div class="cols__col">
-                                            <div class="cols__img">
+                                    </div>
+                                    <div class="col">
+                                        <div class="col__row">
+                                            <div class="col__img">
                                                 <img src="./image/team/2.svg" alt="">
                                             </div>
-                                            <div class="cols__title">Судебные заседания без вашего участия</div>
+                                            <div class="col__title">
+                                                <h3>Судебные заседания без вашего участия</h3>
+                                            </div>
                                         </div>
-                                        <div class="cols__col">
-                                            <div class="cols__img">
+                                    </div>
+                                    <div class="col">
+                                        <div class="col__row">
+                                            <div class="col__img">
                                                 <img src="./image/team/3.svg" alt="">
                                             </div>
-                                            <div class="cols__title">Удобная рассрочка платежа</div>
+                                            <div class="col__title">
+                                                <h3>Удобная рассрочка платежа</h3>
+                                            </div>
                                         </div>
-                                        <div class="cols__col">
-                                            <div class="cols__img">
+                                    </div>
+                                    <div class="col">
+                                        <div class="col__row">
+                                            <div class="col__img">
                                                 <img src="./image/team/4.svg" alt="">
                                             </div>
-                                            <div class="cols__title">Заключаем договор без переплат</div>
+                                            <div class="col__title">
+                                                <h3>Заключаем договор без переплат</h3>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="partner__content__freeCon">
-                                <div class="partner__content__freeCon__body">
-                                    <div class="partner__content__freeCon__row">
-                                        <div class="partner__content__freeCon__text">
-                                            <h5>На бесплатной консультации
-                                                сможете узнать, как законно списать
-                                                долг через процедуру банкротства</h5>
-                                        </div>
-                                        <div class="partner__content__freeCon__btn">
-                                            <a href="#">Получить бесплатную
-                                                консультацию</a>
-                                        </div>
-                                    </div>
+                            <div class="bust__consul">
+                                <div class="bust__text">
+                                    <p>На бесплатной консультации
+                                        сможете узнать, как законно списать
+                                        долг через процедуру банкротства</p>
+                                </div>
+                                <div class="bust__btn">
+                                    <a href="#">Получить бесплатную
+                                        консультацию</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+        <section class="clients">
+            <div class="container">
+                <div class="clients__body">
+                    <div class="clients__title">
+                        <h2>Наши довольные клиенты</h2>
+                    </div>
+                    <div class="slider">
+                        <img src="./image/rew/Rews.png" alt="Image 1">
+                        <img src="./image/rew/Rews.png" alt="Image 2">
+                        <img src="./image/rew/Rews.png" alt="Image 3">
+                    </div>
+                    <button class="prev">Предыдущий слайд</button>
+                    <button class="next">Следующий слайд</button>
+                </div>
+        </section>
+
+        <script>
+
+
+        </script>
     </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
 
 </body>
 
