@@ -100,6 +100,7 @@
 
 .slick-loading .slick-slide {
     visibility: hidden;
+    border-radius: 10px;
 }
 
 .slick-vertical .slick-slide {
@@ -112,4 +113,8 @@
 
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.slick-dots {
+    display: none !important;
 }
