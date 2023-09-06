@@ -220,7 +220,14 @@
     display: none;
   }
   .bust {
-    margin-top: 152px;
+    margin-top: 308px;
+  }
+  .bust__title h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .bust__title span {
+    font-size: 19px;
   }
   .bust__consul {
     margin-top: 0px;
