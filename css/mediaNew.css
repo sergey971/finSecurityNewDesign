@@ -220,7 +220,7 @@
     display: none;
   }
   .bust {
-    margin-top: 308px;
+    margin-top: 0px;
   }
   .bust__title h1 {
     font-size: 30px;
@@ -323,6 +323,12 @@
 @media (max-width: 320px) {
   .header__nav__row {
     display: none;
+  }
+  .bust {
+    margin-top: 0px;
+  }
+  .clients {
+    margin-top: 179px;
   }
   .help__col__desc, .help__col__revers, .help__col__desc__revers {
     max-width: 100%;
