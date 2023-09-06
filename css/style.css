@@ -147,7 +147,7 @@ legend {
 }
 
 .header__inner {
-  margin-bottom: 326px;
+  margin-bottom: 437px;
   margin-top: 18px;
 }
 .header__top {
@@ -236,7 +236,6 @@ legend {
 
 .bust {
   z-index: -1;
-  margin-top: 325px;
 }
 .bust::after {
   background-image: url("../image/team/team.png");
