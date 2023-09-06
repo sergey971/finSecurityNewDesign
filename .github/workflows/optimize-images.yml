@@ -1,0 +1,35 @@
+name: Optimize Images
+
+on:
+  push:
+    branches:
+      - main # Укажите имя вашей основной ветки
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Optimize Images
+        run: |
+          # Здесь запускайте вашу задачу Gulp или другие инструменты оптимизации
+          npm run optimize-images
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add -A
+          git commit -m "Optimize images"
+          git push
