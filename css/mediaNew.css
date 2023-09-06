@@ -331,7 +331,11 @@
     display: none;
   }
   .bust {
+    height: 54vh;
     margin-top: 0px;
+  }
+  .bust__title {
+    margin-bottom: 25px;
   }
   .clients {
     margin-top: 179px;
