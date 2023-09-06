@@ -241,6 +241,10 @@
     margin-right: auto;
   }
 }
+.clients {
+  margin-top: -87px;
+}
+
 .col__help__button__help {
   max-width: none;
   width: 100%;
