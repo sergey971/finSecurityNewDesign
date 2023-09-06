@@ -83,6 +83,13 @@
   .header__nav__row {
     display: none;
   }
+  .help {
+    margin-bottom: 0px;
+  }
+  .help__title {
+    font-size: 22px;
+    text-align: center;
+  }
   .help__col__desc, .help__col__revers, .help__col__desc__revers {
     max-width: 100%;
     border-top-right-radius: 10px;
@@ -92,9 +99,26 @@
   .help__col__image, .help__col__image__revers {
     display: none;
   }
+  .videoRew__title h2 {
+    font-size: 22px;
+  }
   .col__help__button__help {
     max-width: none;
     width: 100%;
+  }
+  .clients__arrow .next,
+  .clients__arrow .prev {
+    width: 10%;
+  }
+  .clients__title h2 {
+    font-size: 22px;
+  }
+  .clients__arrow {
+    margin-top: 10px;
+  }
+  .clients__arrow .nextVideo,
+  .clients__arrow .prevVideo {
+    width: 10%;
   }
   .bust {
     height: 100vh;
