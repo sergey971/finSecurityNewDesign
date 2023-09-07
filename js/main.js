@@ -21,8 +21,8 @@ $('.slider').slick({
     speed: 300,
     slidesToShow: 1,
     adaptiveHeight: true,
-    // prevArrow: $('.prev'), // Кастомная кнопка "Предыдущий слайд"
-    nextArrow: $('.next')  // Кастомная кнопка "Следующий слайд"
+    prevArrow: $('.prev'), // Кастомная кнопка "Предыдущий слайд"
+    // nextArrow: $('.next')  // Кастомная кнопка "Следующий слайд"
 });
 $('.sliderVideo').slick({
     dots: true,

@@ -236,7 +236,6 @@ legend {
 
 .bust {
   z-index: -1;
-  height: 58vh;
 }
 .bust::after {
   background-image: url("../image/team/team.png");
@@ -429,7 +428,7 @@ legend {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin-bottom: 25px;
+  max-height: 110px;
 }
 
 .videoRew {
@@ -455,7 +454,6 @@ legend {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: end;
-  margin-bottom: 25px;
 }
 
 .sliderVideo iframe {
