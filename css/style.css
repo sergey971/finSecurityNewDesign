@@ -1056,14 +1056,14 @@ legend {
   top: 0;
 }
 #burger span:nth-child(2) {
-  top: 6px;
+  top: 9px;
 }
 #burger span:nth-child(3) {
-  top: 12px;
+  top: 18px;
 }
 
 #burger.open span:nth-child(1) {
-  top: 6px;
+  top: 9px;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
 }
@@ -1074,7 +1074,7 @@ legend {
 }
 
 #burger.open span:nth-child(3) {
-  top: 6px;
+  top: 9px;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
 }
