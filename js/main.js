@@ -1,20 +1,35 @@
+// const burger = document.querySelector('#burger');
+// const headerNavRow = document.querySelector('.header__nav__row');
+// const partner = document.querySelector('.partners');
+// const partnersTitle = document.querySelector('.partners__title');
+// const partnersBtn = document.querySelector('.partners__btn');
+
+// // headerNavRow.classList.add('none');
+// burger.addEventListener('click', () => {
+//     burger.classList.toggle('open');
+//     partnersTitle.classList.toggle('none');
+//     partner.classList.toggle('partnerBG');
+//     partnersBtn.classList.toggle('partnersBtn');
+//     headerNavRow.classList.toggle('active');
+
+// });
+
 const burger = document.querySelector('#burger');
 const headerNavRow = document.querySelector('.header__nav__row');
-const partner = document.querySelector('.partners');
-const partnersTitle = document.querySelector('.partners__title');
-const partnersBtn = document.querySelector('.partners__btn');
+const AllSection = document.querySelector('.menu');
+const noTitle = document.querySelector('.noTitle');
+const bulet = document.querySelector('.bulet');
+const btn = document.querySelector('.btn');
 
-// headerNavRow.classList.add('none');
 burger.addEventListener('click', () => {
     burger.classList.toggle('open');
-    partnersTitle.classList.toggle('none');
-    partner.classList.toggle('partnerBG');
-    partnersBtn.classList.toggle('partnersBtn');
+    noTitle.classList.toggle('none');
+    bulet.classList.toggle('none');
+    AllSection.classList.toggle('menuBG');
+    btn.classList.toggle('styleBurgerBtn');
     headerNavRow.classList.toggle('active');
 
 });
-
-
 $('.slider').slick({
     dots: true,
     infinite: true,
