@@ -236,6 +236,7 @@ legend {
 
 .bust {
   z-index: -1;
+  height: 42vh;
 }
 .bust::after {
   background-image: url("../image/team/team.png");
@@ -402,7 +403,6 @@ legend {
 }
 
 .clients {
-  margin-top: 216px;
   position: relative;
 }
 .clients__title {
