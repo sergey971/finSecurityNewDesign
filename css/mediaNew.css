@@ -169,9 +169,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .bust__text {
-    display: none;
-  }
   .bust__cols__row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
