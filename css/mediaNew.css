@@ -1,6 +1,6 @@
-@media (min-width: 1300px) {
+@media (min-width: 1280px) and (max-width: 1400px) {
   .header__inner {
-    margin-bottom: 383px;
+    margin-bottom: 209px;
     margin-top: 18px;
   }
   .bust {
@@ -363,18 +363,6 @@
   }
   .footer__item1__box2 {
     text-align: end;
-  }
-}
-@media (min-width: 321px) and (max-width: 390px) {
-  .bust {
-    height: 57vh;
-    margin-top: -15px;
-  }
-  .bust::after {
-    height: 140vh;
-  }
-  .clients {
-    margin-top: 4px;
   }
 }
 @media (max-width: 320px) {
