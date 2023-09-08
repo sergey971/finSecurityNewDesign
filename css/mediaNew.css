@@ -257,6 +257,7 @@
   }
   .header__inner {
     margin-bottom: 0px;
+    height: 15vh;
   }
   .header__logo img {
     width: 50%;
