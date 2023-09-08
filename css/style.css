@@ -142,6 +142,12 @@ legend {
   padding: 0 15px;
 }
 
+.containerFooter {
+  max-width: 1364px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .burger {
   display: none;
 }
@@ -941,18 +947,18 @@ legend {
   height: 100%;
 }
 
-.footer a {
-  color: #FFF;
-}
-.footer__body {
-  border-radius: 10px 10px 0px 0px;
+.footer {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../image/footer.png"), lightgray 50%;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url("../image/footer.png"), lightgray 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 76px;
+}
+.footer a {
+  color: #FFF;
 }
 .footer__row {
-  padding: 45px 45px 0px;
+  padding: 45px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
