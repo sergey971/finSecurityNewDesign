@@ -365,7 +365,11 @@
     text-align: end;
   }
 }
-@media (min-width: 321px) and (max-width: 375px) {
+@media (min-width: 321px) and (max-width: 390px) {
+  .bust {
+    height: 57vh;
+    margin-top: -15px;
+  }
   .bust::after {
     height: 140vh;
   }
