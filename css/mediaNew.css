@@ -165,6 +165,7 @@
   }
   .bust::after {
     height: 135vh;
+    background-size: inherit;
   }
   .bust__item {
     -webkit-box-orient: vertical;
