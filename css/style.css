@@ -535,6 +535,7 @@ legend {
   height: auto;
 }
 .help__title {
+  margin-top: 28px;
   margin-bottom: 32px;
   display: -webkit-box;
   display: -ms-flexbox;
