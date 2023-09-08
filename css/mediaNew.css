@@ -261,7 +261,7 @@
     content: url("../image/team/teamSlider.jpg");
   }
   .header__inner {
-    margin-bottom: 39px;
+    margin-bottom: 66px;
     height: 23vh;
   }
   .header__logo img {
@@ -366,6 +366,9 @@
   }
 }
 @media (max-width: 320px) {
+  .header__inner {
+    height: 10vh;
+  }
   .header__nav__row {
     display: none;
   }
@@ -375,6 +378,9 @@
   .bust__title {
     margin-bottom: 25px;
   }
+  .clients {
+    margin-top: 35px;
+  }
   .help__col__desc, .help__col__revers, .help__col__desc__revers {
     max-width: 100%;
     border-top-right-radius: 10px;
@@ -383,6 +389,9 @@
   }
   .help__col__image, .help__col__image__revers {
     display: none;
+  }
+  .bust__title h1 {
+    margin-top: 38px;
   }
   .col__help__button__help {
     max-width: none;
