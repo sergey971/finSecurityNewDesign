@@ -367,14 +367,10 @@
     display: none;
   }
   .bust {
-    height: 54vh;
     margin-top: 0px;
   }
   .bust__title {
     margin-bottom: 25px;
-  }
-  .clients {
-    margin-top: 240px;
   }
   .help__col__desc, .help__col__revers, .help__col__desc__revers {
     max-width: 100%;
