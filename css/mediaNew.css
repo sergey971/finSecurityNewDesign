@@ -169,6 +169,9 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .bust__text {
+    display: none;
+  }
   .bust__cols__row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -277,9 +280,6 @@
   }
   .bust .col__title {
     font-size: 12px;
-  }
-  .bust__cols {
-    display: none;
   }
   .bust__title h1 {
     font-size: 30px;
