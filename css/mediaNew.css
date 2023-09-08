@@ -257,7 +257,7 @@
   }
   .header__inner {
     margin-bottom: 0px;
-    height: 15vh;
+    height: 36vh;
   }
   .header__logo img {
     width: 50%;
@@ -280,6 +280,9 @@
   }
   .bust .col__title {
     font-size: 12px;
+  }
+  .bust__cols {
+    display: none;
   }
   .bust__title h1 {
     font-size: 30px;
