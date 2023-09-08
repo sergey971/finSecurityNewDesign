@@ -50,3 +50,6 @@ $('.sliderVideo').slick({
     prevArrow: $('.prevVideo'), // Кастомная кнопка "Предыдущий слайд"
     nextArrow: $('.nextVideo')  // Кастомная кнопка "Следующий слайд"
 });
+
+
+
