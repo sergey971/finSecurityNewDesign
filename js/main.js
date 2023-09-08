@@ -38,12 +38,14 @@ $('.slider').slick({
     adaptiveHeight: true,
     nextArrow: $('.prev'), // Кастомная кнопка "Предыдущий слайд"
     // nextArrow: $('.next')  // Кастомная кнопка "Следующий слайд"
+    swipe: true,
 });
 $('.sliderVideo').slick({
     dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
+    swipe: true,
     adaptiveHeight: true,
     prevArrow: $('.prevVideo'), // Кастомная кнопка "Предыдущий слайд"
     nextArrow: $('.nextVideo')  // Кастомная кнопка "Следующий слайд"
