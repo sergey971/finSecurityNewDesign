@@ -288,7 +288,7 @@
   }
   .bust__title h1 {
     font-size: 30px;
-    width: 73%;
+    width: 100%;
   }
   .bust__title span {
     font-size: 19px;
@@ -363,6 +363,14 @@
   }
   .footer__item1__box2 {
     text-align: end;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+  .bust::after {
+    height: 140vh;
+  }
+  .clients {
+    margin-top: 4px;
   }
 }
 @media (max-width: 320px) {
