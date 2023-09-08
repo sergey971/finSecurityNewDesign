@@ -166,6 +166,7 @@
   .bust::after {
     height: 135vh;
     background-size: inherit;
+    top: -128px;
   }
   .bust__item {
     -webkit-box-orient: vertical;
@@ -260,7 +261,7 @@
     content: url("../image/team/teamSlider.jpg");
   }
   .header__inner {
-    margin-bottom: 198px;
+    margin-bottom: 39px;
     height: 23vh;
   }
   .header__logo img {
