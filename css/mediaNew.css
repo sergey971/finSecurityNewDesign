@@ -161,7 +161,10 @@
     width: 26%;
   }
   .bust {
-    height: 74vh;
+    height: 85vh;
+  }
+  .bust::after {
+    height: 135vh;
   }
   .bust__item {
     -webkit-box-orient: vertical;
@@ -256,7 +259,7 @@
     content: url("../image/team/teamSlider.jpg");
   }
   .header__inner {
-    margin-bottom: 0px;
+    margin-bottom: 198px;
     height: 36vh;
   }
   .header__logo img {
