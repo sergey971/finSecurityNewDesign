@@ -247,6 +247,8 @@
   }
   .bust {
     margin-top: 0px;
+    height: 116vh;
+    background-image: url("../image/team/mobileTeam.png");
   }
   .bust .col__title {
     font-size: 12px;
