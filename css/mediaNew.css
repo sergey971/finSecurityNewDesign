@@ -335,6 +335,11 @@
     text-align: end;
   }
 }
+@media (max-width: 450px) {
+  .bust__title h1 {
+    padding-top: 49px;
+  }
+}
 @media (max-width: 320px) {
   .header__inner {
     height: 10vh;
@@ -346,7 +351,7 @@
     height: 116vh;
   }
   .bust__title {
-    margin-bottom: 25px;
+    margin-bottom: 0px;
   }
   .clients {
     margin-top: 35px;
