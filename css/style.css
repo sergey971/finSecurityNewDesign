@@ -153,11 +153,9 @@ legend {
 }
 
 .header__inner {
-  margin-bottom: 437px;
   margin-top: 18px;
 }
 .header__top {
-  height: 111px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,19 +239,13 @@ legend {
 }
 
 .bust {
-  z-index: -1;
-  height: 42vh;
-}
-.bust::after {
   background-image: url("../image/team/team6.jpg");
-  content: "";
-  position: absolute;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  top: 0;
-  left: 0;
   width: 100%;
+  position: relative;
+  top: -111px;
   height: 100vh;
   z-index: -99;
 }
@@ -265,6 +257,7 @@ legend {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-top: 30.9vh;
 }
 .bust__title {
   max-width: 746px;

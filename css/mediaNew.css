@@ -1,30 +1,7 @@
-@media (min-width: 1280px) and (max-width: 1400px) {
-  .header__inner {
-    margin-bottom: 209px;
-    margin-top: 18px;
-  }
-  .bust {
-    margin-top: -30px;
-    height: 50vh;
-  }
-  .bust__title {
-    max-width: 746px;
-    margin-bottom: 51px;
-    color: #FFF;
-    font-style: normal;
-    font-weight: 700;
-  }
-  .bust__title h1 {
-    font-size: 36px;
-  }
-}
 @media (max-width: 1040px) {
   .header__inner {
     margin-bottom: 0px;
     margin-top: 18px;
-  }
-  .bust {
-    height: 81vh;
   }
   .bust__title {
     margin-bottom: 69px;
@@ -160,14 +137,6 @@
   .clients__arrow .prevVideo {
     width: 26%;
   }
-  .bust {
-    height: 85vh;
-  }
-  .bust::after {
-    height: 135vh;
-    background-size: inherit;
-    top: -128px;
-  }
   .bust__item {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -259,10 +228,6 @@
   }
   .slider div:nth-child(3) img {
     content: url("../image/team/teamSlider.jpg");
-  }
-  .header__inner {
-    margin-bottom: 66px;
-    height: 23vh;
   }
   .header__logo img {
     width: 50%;
