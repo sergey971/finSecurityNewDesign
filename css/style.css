@@ -824,6 +824,7 @@ legend {
   border-radius: 5px;
   background: #ECECEC;
   margin-bottom: 24px;
+  color: #212529;
 }
 .form form label {
   color: #FFF;
