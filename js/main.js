@@ -36,10 +36,12 @@ $('.slider').slick({
     speed: 300,
     slidesToShow: 1,
     adaptiveHeight: true,
-    nextArrow: $('.prev'), // Кастомная кнопка "Предыдущий слайд"
+    // nextArrow: $('.prev'), // Кастомная кнопка "Предыдущий слайд"
     // nextArrow: $('.next')  // Кастомная кнопка "Следующий слайд"
     swipe: true,
 });
+
+
 $('.sliderVideo').slick({
     dots: true,
     infinite: true,
@@ -47,9 +49,6 @@ $('.sliderVideo').slick({
     slidesToShow: 1,
     swipe: true,
     adaptiveHeight: true,
-    prevArrow: $('.prevVideo'), // Кастомная кнопка "Предыдущий слайд"
-    nextArrow: $('.nextVideo')  // Кастомная кнопка "Следующий слайд"
+    // prevArrow: $('.prevVideo'), // Кастомная кнопка "Предыдущий слайд"
+    // nextArrow: $('.nextVideo')  // Кастомная кнопка "Следующий слайд"
 });
-
-
-

@@ -1,12 +1,4 @@
 @charset "UTF-8";
-@media (min-width: 1235px) and (max-width: 1300px) {
-  .partners {
-    margin-bottom: 63px;
-  }
-  .partners ::after {
-    height: 182% !important;
-  }
-}
 @media (max-width: 1024px) {
   .header__logo h3 {
     font-size: 13px;
@@ -82,10 +74,7 @@
     display: block !important;
   }
 }
-@media (max-width: 425px) {
-  .header {
-    margin-top: 15px;
-  }
+@media (max-width: 430px) {
   .header__logo h3 {
     font-size: 10px !important;
     margin-left: -4px;
@@ -103,11 +92,18 @@
   .header__phone .phone ::before {
     content: "тел.";
   }
+  .partners {
+    background-image: url("../image/team/mobileTeam2.png");
+    height: 100vh;
+    background-size: cover;
+  }
   .partners__title h1 {
-    font-size: 32px !important;
+    font-size: 32px;
+    margin-top: 21vh;
   }
   .partners__btn {
     margin-right: auto;
+    margin-top: 1vh;
   }
   .cooperating__title {
     display: none;
@@ -130,18 +126,12 @@
     margin-top: 12px;
   }
 }
-@media (max-width: 414px) {
-  .partners__title {
-    margin-top: 10px !important;
-  }
-}
-@media (max-width: 375px) {
-  .partners__title {
-    margin-top: 10px !important;
-  }
-}
 @media (max-width: 320px) {
-  .partners__title {
-    margin-top: -80px !important;
+  .partners__title h1 {
+    font-size: 26px;
+    margin-top: 27vh;
+  }
+  .partners__row {
+    padding-top: 27.9vh;
   }
 }
