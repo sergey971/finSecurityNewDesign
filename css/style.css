@@ -152,9 +152,6 @@ legend {
   display: none;
 }
 
-.header__inner {
-  margin-top: 18px;
-}
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
