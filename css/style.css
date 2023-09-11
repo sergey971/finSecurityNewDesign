@@ -403,15 +403,13 @@ legend {
 .clients {
   position: relative;
 }
-.clients__title {
-  margin-bottom: -7px;
-}
 .clients__title h2 {
   color: #212529;
   text-align: center;
   font-size: 30px;
   font-weight: 600;
   line-height: 120%;
+  margin-bottom: 48px;
 }
 .clients .slider {
   margin-bottom: 46px;
@@ -432,10 +430,8 @@ legend {
 .videoRew {
   position: relative;
 }
-.videoRew__title {
-  margin-bottom: 3px;
-}
 .videoRew__title h2 {
+  margin-bottom: 48px;
   color: #212529;
   text-align: center;
   font-size: 30px;
