@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @media (max-width: 1024px) {
   .header__logo h3 {
     font-size: 13px;
@@ -18,9 +17,7 @@
   .header {
     position: relative;
     z-index: 2;
-  }
-  .header__nav__row {
-    display: none;
+    height: 10vh;
   }
   .header__top {
     -webkit-box-orient: vertical;
@@ -53,7 +50,7 @@
     font-size: 16px;
   }
   .header__nav__row {
-    display: none !important;
+    display: none;
   }
   .cooperating__title {
     display: none;
@@ -81,16 +78,9 @@
     width: 89% !important;
   }
   .header__phone .phone {
-    border: none !important;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
-  }
-  .header__phone .phone__return {
-    display: none;
-  }
-  .header__phone .phone ::before {
-    content: "тел.";
   }
   .partners {
     background-image: url("../image/team/mobileTeam2.png");
@@ -103,7 +93,6 @@
   }
   .partners__btn {
     margin-right: auto;
-    margin-top: 1vh;
   }
   .cooperating__title {
     display: none;

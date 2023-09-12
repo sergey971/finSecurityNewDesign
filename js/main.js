@@ -22,12 +22,12 @@ const bulet = document.querySelector('.bulet');
 const btn = document.querySelector('.btn');
 
 burger.addEventListener('click', () => {
+    headerNavRow.classList.toggle('active');
+    AllSection.classList.toggle('menuBG');
+    btn.classList.toggle('styleBurgerBtn');
     burger.classList.toggle('open');
     noTitle.classList.toggle('none');
     bulet.classList.toggle('none');
-    AllSection.classList.toggle('menuBG');
-    btn.classList.toggle('styleBurgerBtn');
-    headerNavRow.classList.toggle('active');
 
 });
 $('.slider').slick({
