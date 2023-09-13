@@ -68,8 +68,25 @@ $('.owl-carousel').owlCarousel({
     prevArrow: $('.prevDesc'),
     nextArrow: $('.nextDesc'),
     nav: false,
-    items: 3
-    ,
+    items: 3,
+    responsive: {
+        // Настройки для маленьких экранов (меньше 768px)
+        0: {
+            items: 1.2,
+            margin: 10 // Отображать 1 слайд
+        },
+        // Настройки для средних экранов (768px и больше)
+        768: {
+            items: 2, // Отображать 2 слайда
+            margin: 30,
+        },
+        // Настройки для больших экранов (992px и больше)
+        1024: {
+            items: 3, // Отображать 3 слайда (исходные настройки)
+            margin: 30,
+        }
+
+    }
 })
 $('.prevDesc').click(function () {
     $('.owl-carousel').trigger('prev.owl.carousel');

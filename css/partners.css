@@ -577,6 +577,7 @@ legend {
   background: -webkit-gradient(linear, left top, right top, color-stop(0.36%, #3981F4), color-stop(98.52%, rgba(82, 170, 239, 0.7)));
   background: linear-gradient(90deg, #3981F4 0.36%, rgba(82, 170, 239, 0.7) 98.52%);
   margin-bottom: 103px;
+  padding-bottom: 102px;
 }
 .comeClients__top__row {
   display: -webkit-box;
@@ -742,4 +743,8 @@ legend {
   margin-left: auto;
   margin-right: auto;
   top: 24vh;
+}
+
+.owl-dots {
+  display: none;
 }
