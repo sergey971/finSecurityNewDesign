@@ -1,3 +1,8 @@
+@media (max-width: 1440px) {
+  .containerCOlS {
+    max-width: 1296px !important;
+  }
+}
 @media (max-width: 1024px) {
   .header__logo h3 {
     font-size: 13px;

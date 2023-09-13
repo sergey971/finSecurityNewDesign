@@ -52,3 +52,29 @@ $('.sliderVideo').slick({
     // prevArrow: $('.prevVideo'), // Кастомная кнопка "Предыдущий слайд"
     // nextArrow: $('.nextVideo')  // Кастомная кнопка "Следующий слайд"
 });
+// $('.sliderDesc').slick({
+//     dots: true,
+//     infinite: true,
+//     speed: 300,
+//     slidesToShow: 3,
+//     slidesToScroll: 1, // Прокручивать по одному слайду
+//     prevArrow: $('.prevDesc'), // Кастомная кнопка "Предыдущий слайд"
+//     nextArrow: $('.nextDesc')  // Кастомная кнопка "Следующий слайд"
+// });
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 0,
+    nav: true,
+    prevArrow: $('.prevDesc'),
+    nextArrow: $('.nextDesc'),
+    nav: false,
+    items: 3
+    ,
+})
+$('.prevDesc').click(function () {
+    $('.owl-carousel').trigger('prev.owl.carousel');
+});
+
+$('.nextDesc').click(function () {
+    $('.owl-carousel').trigger('next.owl.carousel');
+});
