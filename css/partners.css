@@ -157,6 +157,9 @@ legend {
   margin: 0 auto;
 }
 
+.header__inner {
+  margin-top: 8px;
+}
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -247,7 +250,7 @@ legend {
   background-size: cover;
   width: 100%;
   position: relative;
-  top: -113px;
+  top: -120px;
   height: 100vh;
   z-index: -99;
 }
