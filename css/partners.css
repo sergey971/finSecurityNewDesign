@@ -615,6 +615,7 @@ legend {
           column-gap: 25px;
 }
 .comeClients__arrow img {
+  cursor: pointer;
   width: 96px;
   height: 96px;
 }
