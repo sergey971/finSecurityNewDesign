@@ -226,6 +226,9 @@
   .containerCOlS {
     max-width: 420px;
   }
+  .colcomeClients__subTitle {
+    font-size: 29px !important;
+  }
 }
 @media (max-width: 375px) {
   .containerCOlS {
