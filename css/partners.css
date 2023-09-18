@@ -587,8 +587,10 @@ legend {
 }
 
 .comeClients {
-  background: -webkit-gradient(linear, left top, right top, color-stop(0.36%, #3981F4), color-stop(98.52%, rgba(82, 170, 239, 0.7)));
-  background: linear-gradient(90deg, #3981F4 0.36%, rgba(82, 170, 239, 0.7) 98.52%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0.36%, #3981F4), color-stop(98.52%, rgba(82, 170, 239, 0.7))), url("../image/team/teamBG.jpg");
+  background: linear-gradient(90deg, #3981F4 0.36%, rgba(82, 170, 239, 0.7) 98.52%), url("../image/team/teamBG.jpg");
+  background-repeat: no-repeat;
+  background-size: top center;
   margin-bottom: 103px;
   padding-bottom: 102px;
 }

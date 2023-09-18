@@ -165,6 +165,10 @@
     font-size: 32px;
     margin-top: 21vh;
   }
+  .partners__title::after {
+    height: 33px;
+    bottom: 45px;
+  }
   .partners__btn {
     margin-right: auto;
   }
