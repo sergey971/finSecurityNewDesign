@@ -264,11 +264,24 @@ legend {
 .partners__title {
   max-width: 660px;
   margin-top: 232px;
+  position: relative;
 }
 .partners__title h1 {
   color: #FFF;
   font-size: 48px;
   line-height: normal;
+}
+.partners__title::after {
+  content: "";
+  position: absolute;
+  bottom: 12%;
+  left: 0;
+  max-width: 398px;
+  width: 100%;
+  height: 60px;
+  background-color: #2196F3;
+  opacity: 0.8;
+  z-index: -1;
 }
 .partners__btn {
   margin-top: 16px;
