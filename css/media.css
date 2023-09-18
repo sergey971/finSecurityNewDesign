@@ -158,7 +158,7 @@
   }
   .partners {
     background-image: url("../image/team/mobileTeam2.png");
-    height: 116vh;
+    height: 100vh;
     background-size: cover;
   }
   .partners__title h1 {
