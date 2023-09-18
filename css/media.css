@@ -249,8 +249,14 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .form {
+    max-width: 375px;
+  }
 }
 @media (max-width: 320px) {
+  .form {
+    max-width: 320px;
+  }
   .partners__title h1 {
     font-size: 26px;
     margin-top: 27vh;
