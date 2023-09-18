@@ -229,7 +229,7 @@
 }
 @media (max-width: 375px) {
   .containerCOlS {
-    max-width: 295px !important;
+    max-width: 280px !important;
   }
   .services__desc__colOne__row .colOne {
     margin-right: 0px;
