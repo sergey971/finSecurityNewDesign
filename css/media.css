@@ -249,12 +249,12 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .form {
+  .form__left {
     max-width: 375px;
   }
 }
 @media (max-width: 320px) {
-  .form {
+  .form__left {
     max-width: 320px;
   }
   .partners__title h1 {
