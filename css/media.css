@@ -168,6 +168,9 @@
   .partners__btn {
     margin-right: auto;
   }
+  .form__left {
+    max-width: 414px;
+  }
   .comeClients {
     padding-bottom: 44px;
   }
