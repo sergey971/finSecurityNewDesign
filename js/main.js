@@ -14,6 +14,9 @@
 
 // });
 
+
+//   == 
+
 const burger = document.querySelector('#burger');
 const headerNavRow = document.querySelector('.header__nav__row');
 const AllSection = document.querySelector('.menu');
@@ -42,15 +45,15 @@ $('.slider').slick({
 });
 
 
-$('.sliderVideo').slick({
+$('.sliderVideo ').slick({
     dots: true,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     swipe: true,
     adaptiveHeight: true,
-    // prevArrow: $('.prevVideo'), // Кастомная кнопка "Предыдущий слайд"
-    // nextArrow: $('.nextVideo')  // Кастомная кнопка "Следующий слайд"
+    prevArrow: $('.prevVideo'), // Кастомная кнопка "Предыдущий слайд"
+    nextArrow: $('.nextVideo')  // Кастомная кнопка "Следующий слайд"
 });
 // $('.sliderDesc').slick({
 //     dots: true,
@@ -95,3 +98,6 @@ $('.prevDesc').click(function () {
 $('.nextDesc').click(function () {
     $('.owl-carousel').trigger('next.owl.carousel');
 });
+// =================================================================
+
+
