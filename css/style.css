@@ -455,7 +455,7 @@ legend {
 
 .sliderVideo iframe {
   width: 100%;
-  max-height: 515px;
+  aspect-ratio: 16/9;
 }
 
 .advantages {
